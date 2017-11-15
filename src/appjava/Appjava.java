@@ -14,7 +14,7 @@ public class Appjava {
    
     
     public static final String USERNAME = "root";
-    public static final String PASSWORD = "munisa786";
+    public static final String PASSWORD = "mdfgdg";
     public static final String CONN_STRING = "jdbc:mysql://localhost:3306/youtube";
     public static void main(String[] args) {
         
@@ -26,7 +26,7 @@ public class Appjava {
         try {
            Connection conn = DriverManager.getConnection(CONN_STRING, USERNAME, PASSWORD);
             System.out.println("connected");
-            System.out.println("fuck this shit");
+          
             System.out.println(PASSWORD);
 
 
